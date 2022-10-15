@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@200;300&family=Nunito:wght@200&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Source+Sans+Pro:wght@300&display=swap');
+:root{
+    --orange:#F3A83C;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+.head{
+    background-image: url(/imgs/hotel-1.jpg);
+    background-size:cover;
+    background-position:  left;
+    height: 500px;
+    box-shadow: inset 0 0 157px 54px #1f1f1f;
+}
+
+.content{
+padding-top: 100px;
+}
+.section-2{
+  height: 200px;
+  background-color: #1f1f1f;
+    box-shadow: 0 0 223px 119px #1f1f1f;
+}
+.sec-content ul li{
+font-size: 40px;
+margin-right: 10px;
+}
+.section-3{
+    background-color: #1f1f1f;
+    padding-bottom: 80px;
+}
+.section-3 .card{
+    background-color:  #2b2a2a79 !important;
+    border:  #1f1f1f solid 5px;
+    transition: .8s;
+}
+.section-3 .card:hover{
+    background-color: #3a393979 !important;
+    cursor: pointer;
+}
+.section-3 .card .icon path{
+    fill: #F3A83C;
+}
+.section-4 .left-side{
+    margin-top: 90px;
+}
+.list-item ::before {
+    position: absolute;
+    top: 0;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    left: 0;
+    background: #e5e5e5;
+}
+.reviews{
+    padding-bottom: 100px;
+}
+
+.reviews .left {
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+.reviews .left p{
+    margin-top: 20px;
+    color: #434141;
+}
+.reviews .left h3::before  {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -25px;
+    width: 20%;
+    height: 1px;
+    left: 0;
+    background: #efeded;
+}
+
+.section-5 .image{
+    background-image: url(/imgs/hotel-5.jpg);
+    background-size: cover;
+    height: 732px;
+}
+
+.section-5 .box-content h2{
+    font-weight: 100;
+    font-size: 45px;
+    letter-spacing: 2px;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-5::after{
+    position: absolute;
+    content: "";
+    display: block;
+    bottom:-110px;
+    width: 100%;
+    height: 1px;
+    margin-top: 100px;
+    background: #efeded;
+}
+.section-6 .content a:hover{
+background-color: #ece8e8 !important;
+}
